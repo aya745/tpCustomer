@@ -1,0 +1,6 @@
+com\chouate\tpcustomerchouate\entity\MicroMarket.class
+com\chouate\tpcustomerchouate\entity\Discount.class
+com\chouate\tpcustomerchouate\entity\Customer.class
+com\chouate\tpcustomerchouate\JakartaRestConfiguration.class
+com\chouate\tpcustomerchouate\service\CustomerManager.class
+com\chouate\tpcustomerchouate\resources\JakartaEE10Resource.class
