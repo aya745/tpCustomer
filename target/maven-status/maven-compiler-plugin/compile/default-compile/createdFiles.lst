@@ -1,4 +1,7 @@
+com\chouate\tpcustomerchouate\config\ConfigJSF.class
+com\chouate\tpcustomerchouate\jsf\CustomerBean.class
 com\chouate\tpcustomerchouate\entity\MicroMarket.class
+com\chouate\tpcustomerchouate\jsf\customerDetailsBean.class
 com\chouate\tpcustomerchouate\entity\Discount.class
 com\chouate\tpcustomerchouate\entity\Customer.class
 com\chouate\tpcustomerchouate\JakartaRestConfiguration.class
