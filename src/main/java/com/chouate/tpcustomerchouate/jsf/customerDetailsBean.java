@@ -5,7 +5,9 @@
 package com.chouate.tpcustomerchouate.jsf;
 
 import com.chouate.tpcustomerchouate.entity.Customer;
+import com.chouate.tpcustomerchouate.entity.Discount;
 import com.chouate.tpcustomerchouate.service.CustomerManager;
+import com.chouate.tpcustomerchouate.service.DiscountManager;
 import jakarta.inject.Named;
 import jakarta.faces.view.ViewScoped;
 import jakarta.inject.Inject;
@@ -25,6 +27,9 @@ public class customerDetailsBean implements Serializable {
 
   @Inject
   private CustomerManager customerManager;
+  
+  @Inject
+  private DiscountManager discountManager;
 
   public int getIdCustomer() {
     return idCustomer;
@@ -56,5 +61,12 @@ public class customerDetailsBean implements Serializable {
 
   public void loadCustomer() {
     this.customer = customerManager.findById(idCustomer);
+  }
+  
+  /**
+   * Retourne la liste de tous les Discount.
+   */
+  public List<Discount> getDiscounts() {
+    return discountManager.getAllDiscounts();
   }
 }
