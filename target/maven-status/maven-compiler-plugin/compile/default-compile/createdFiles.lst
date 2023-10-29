@@ -7,3 +7,4 @@ com\chouate\tpcustomerchouate\entity\Customer.class
 com\chouate\tpcustomerchouate\JakartaRestConfiguration.class
 com\chouate\tpcustomerchouate\service\CustomerManager.class
 com\chouate\tpcustomerchouate\resources\JakartaEE10Resource.class
+com\chouate\tpcustomerchouate\service\DiscountManager.class
