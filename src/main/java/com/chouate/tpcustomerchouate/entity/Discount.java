@@ -4,6 +4,7 @@
  */
 package com.chouate.tpcustomerchouate.entity;
 
+
 import jakarta.persistence.Basic;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
