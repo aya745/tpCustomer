@@ -35,7 +35,7 @@ public class CustomerDetailsBean implements Serializable {
     return idCustomer;
   }
 /**
- * Setter
+ * Set
  */
   public void setIdCustomer(int idCustomer) {
     this.idCustomer = idCustomer;
