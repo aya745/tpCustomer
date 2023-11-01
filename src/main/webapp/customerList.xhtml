@@ -42,7 +42,7 @@
                     </f:facet>
                     <h:outputText value="#{item.discount.code} : #{item.discount.rate} %"/>
                 </p:column>
-                <p:column  sortBy="#{item.state}" filterBy="#{item.state}" filterMatchMode="contains">
+                <p:column  sortBy="#{item.state}" sortBy="#{item.city}" filterBy="#{item.state}" filterMatchMode="contains">
                     <!-- TODO: -->
                     <f:facet name="header">
                         <h:outputText value="État" />
